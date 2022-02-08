@@ -576,6 +576,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
+.left-1\/2 {
+  left: 50%;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -600,14 +604,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column-start: 10;
 }
 
+.clear-both {
+  clear: both;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-28 {
-  margin-top: 7rem;
-  margin-bottom: 7rem;
 }
 
 .mt-14 {
@@ -662,6 +665,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.5rem;
 }
 
+.-ml-20 {
+  margin-left: -5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -714,8 +725,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.h-40 {
-  height: 10rem;
+.h-48 {
+  height: 12rem;
 }
 
 .h-24 {
@@ -774,10 +785,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.whitespace-nowrap {
-  white-space: nowrap;
-}
-
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -804,11 +811,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -817,6 +819,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .pt-2 {
@@ -922,11 +929,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(51 62 72 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .opacity-0 {
   opacity: 0;
 }
@@ -937,11 +939,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 section#hero {
-  margin-top: 75px;
+  padding-top: 75px;
 }
 
 section {
-  margin-top: 112px;
+  padding-top: 112px;
+}
+
+.container{
+  border-left:  0.2px solid #CFD5D951 !important;
+  border-right:  0.2px solid #CFD5D951 !important;
 }
 
 section h2 {
@@ -954,24 +961,26 @@ section h2 {
   }
 
   header {
-    margin-top: 104px;
+    padding-top: 104px;
   }
 
   section {
-    margin-top: 150px;
+    padding-top: 150px;
   }
 
   .hero-1 {
-    max-width: 100%;
+    max-width: 490px;
     width: 490px;
     line-height: 48px !important;
   }
 
   .hero-2 {
-    max-width: 100%;
     width: 412px;
-    line-height: 35.2px;
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: normal;
     font-size: 22px;
+    line-height: 160%;
   }
 
   section h2 {
@@ -1138,8 +1147,8 @@ img.grayscale:hover {
     margin-top: 1.5rem;
   }
 
-  .md\:mt-12 {
-    margin-top: 3rem;
+  .md\:mt-40 {
+    margin-top: 10rem;
   }
 
   .md\:block {
