@@ -1,0 +1,24 @@
+<svg width="424" height="499" viewBox="0 0 424 499" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_df_104_118)">
+<ellipse cx="212" cy="249.5" rx="65" ry="102.5" fill="url(#paint0_diamond_104_118)" fill-opacity="0.5" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_df_104_118" x="0" y="0" width="424" height="499" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_104_118"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_104_118" result="shape"/>
+<feGaussianBlur stdDeviation="73.5" result="effect2_foregroundBlur_104_118"/>
+</filter>
+<radialGradient id="paint0_diamond_104_118" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(212 249.5) rotate(90) scale(102.5 65)">
+<stop stop-color="#0CFBD8"/>
+<stop offset="0.348958" stop-color="#19F5FF"/>
+<stop offset="0.661458" stop-color="#FF721E"/>
+<stop offset="1" stop-color="#7ED1FF"/>
+</radialGradient>
+</defs>
+</svg>

@@ -638,12 +638,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2.75rem;
 }
 
-.mr-6 {
-  margin-right: 1.5rem;
+.mr-5 {
+  margin-right: 1.25rem;
 }
 
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mb-4 {
@@ -682,12 +686,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: -2rem;
 }
 
-.mt-32 {
-  margin-top: 8rem;
+.mr-6 {
+  margin-right: 1.5rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .block {
@@ -710,8 +714,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.h-28 {
-  height: 7rem;
+.h-40 {
+  height: 10rem;
 }
 
 .h-24 {
@@ -748,10 +752,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-items-end {
-  justify-items: end;
 }
 
 .gap-4 {
@@ -814,16 +814,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.5rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -878,11 +868,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .font-normal {
   font-weight: 400;
 }
@@ -932,6 +917,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(140 147 152 / var(--tw-text-opacity));
 }
 
+.text-black2 {
+  --tw-text-opacity: 1;
+  color: rgb(51 62 72 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -943,10 +933,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grayscale {
   --tw-grayscale: grayscale(100%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -978,7 +964,7 @@ section h2 {
   .hero-1 {
     max-width: 100%;
     width: 490px;
-    line-height: 48px;
+    line-height: 48px !important;
   }
 
   .hero-2 {
@@ -991,7 +977,7 @@ section h2 {
   section h2 {
     font-size: 20px;
     line-height: 31px;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 64px;
   }
 
@@ -1002,6 +988,17 @@ section h2 {
   section h2.wide-space {
     margin-bottom: 114px;
   }
+}
+
+.tooltip {
+  font-family: SF Pro Rounded;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 155%;
+  height: 29px;
+  padding: 5px 12px;
+  border-radius: 8px;
 }
 
 .activity-icon,
@@ -1121,6 +1118,10 @@ img.grayscale:hover {
     margin-bottom: 1rem;
   }
 
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .md\:mt-7 {
     margin-top: 1.75rem;
   }
@@ -1139,10 +1140,6 @@ img.grayscale:hover {
 
   .md\:mt-12 {
     margin-top: 3rem;
-  }
-
-  .md\:mb-10 {
-    margin-bottom: 2.5rem;
   }
 
   .md\:block {
@@ -1205,10 +1202,10 @@ img.grayscale:hover {
     gap: 2rem;
   }
 
-  .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  .md\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
@@ -1221,24 +1218,6 @@ img.grayscale:hover {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1rem * var(--tw-space-x-reverse));
-    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:space-x-3 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:px-0 {
