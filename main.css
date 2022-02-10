@@ -657,8 +657,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.5rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
 .mb-0 {
@@ -671,6 +671,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mr-5 {
   margin-right: 1.25rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .mb-12 {
@@ -687,10 +691,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-28 {
   margin-bottom: 7rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
 }
 
 .mt-6 {
@@ -729,8 +729,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: -2rem;
 }
 
-.mr-1 {
-  margin-right: 0.25rem;
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .block {
@@ -841,20 +845,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
-.border-gray-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(156 163 175 / var(--tw-border-opacity));
-}
-
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
-
-.border-opacity-30 {
-  --tw-border-opacity: 0.3;
-}
-
 .border-opacity-70 {
   --tw-border-opacity: 0.7;
 }
@@ -888,6 +878,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -1253,16 +1251,12 @@ img.grayscale:hover {
     margin-top: 3rem;
   }
 
-  .md\:mt-32 {
-    margin-top: 8rem;
+  .md\:mb-24 {
+    margin-bottom: 6rem;
   }
 
-  .md\:mb-16 {
-    margin-bottom: 4rem;
-  }
-
-  .md\:mb-20 {
-    margin-bottom: 5rem;
+  .md\:mb-28 {
+    margin-bottom: 7rem;
   }
 
   .md\:block {
